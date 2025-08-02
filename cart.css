@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.cert {
+  background-image: url('img/cart-bg.jpg'); 
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 16px;
+  width: 90%;
+  max-width: 500px;
+  color: white;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#cart-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto 20px;
+  text-align: left;
+}
+
+#cart-list li {
+  margin: 10px 0;
+  background-color: #ffffff2e;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.total-text {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.cartt {
+  background-color: #059212;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.cartt:hover {
+  background-color: #04680c;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .overlay {
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .cartt {
+    width: 100%;
+  }
+}

@@ -1,0 +1,49 @@
+.testt{
+  display: flex;
+  gap:60px;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.monies{
+  text-align: center;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px grey;
+  padding: 50px;
+  gap:40px;
+
+
+
+}
+.testimonies{
+  margin-top: 20px;
+}
+.testimonies h1{
+  text-align: center;
+  justify-content: center;
+  align-items: center2;
+  font-size: 40px;
+  margin-top: 40px;
+}
+
+.estt{
+  display: flex;
+  gap:60px;
+  padding: 20px;
+  margin-top: 0px;
+}
+
+.onies{
+  text-align: center;
+  background-color: green;
+  border-radius: 4px;
+  color: white;
+  box-shadow: 2px 2px 2px grey;
+  padding: 50px;
+  gap:40px;
+}
+.page{
+    width: 300px;
+    height:300px;
+}
